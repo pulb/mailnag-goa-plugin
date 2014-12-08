@@ -40,8 +40,9 @@ class GOAPlugin(Plugin):
 			goa_accounts = client.get_accounts()
 			
 			for a in goa_accounts:
-				if not a.get_account().props.mail_disabled:
-					mail = a.get_mail() # get the mail interface
+				mail = a.get_mail() # get the mail interface
+				
+				if (mail != None) and (not a.get_account().props.mail_disabled):
 					if mail.props.imap_supported:
 						passwd = ''
 						auth_string = ''
