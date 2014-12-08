@@ -90,7 +90,7 @@ class GOAPlugin(Plugin):
 	
 	def get_manifest(self):
 		return (_("GNOME Online Accounts"),
-				_("GNOME Onine Accounts Integration."),
+				_("GNOME Online Accounts Integration."),
 				"1.0",
 				"Patrick Ulbrich <zulu99@gmx.net>",
 				False)
