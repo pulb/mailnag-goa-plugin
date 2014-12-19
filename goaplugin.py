@@ -22,9 +22,9 @@
 #
 
 from gi.repository import Goa
-from common.plugins import Plugin, HookTypes
-from common.accounts import Account
-from common.i18n import _
+from Mailnag.common.plugins import Plugin, HookTypes
+from Mailnag.common.accounts import Account
+from Mailnag.common.i18n import _
 
 plugin_defaults = {}
 
