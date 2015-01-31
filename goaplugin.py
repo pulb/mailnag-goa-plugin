@@ -3,7 +3,7 @@
 #
 # goaplugin.py
 #
-# Copyright 2014 Patrick Ulbrich <zulu99@gmx.net>
+# Copyright 2014, 2015 Patrick Ulbrich <zulu99@gmx.net>
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -91,7 +91,7 @@ class GOAPlugin(Plugin):
 	def get_manifest(self):
 		return (_("GNOME Online Accounts"),
 				_("GNOME Online Accounts Integration."),
-				"1.0",
+				"1.1",
 				"Patrick Ulbrich <zulu99@gmx.net>",
 				False)
 
