@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with python2
+
+override_dh_clean:
+	rm -rf $(CURDIR)/build
+	find $(CURDIR) -name *.pyc -delete
+	dh_clean

@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/mailnag-goa-plugin-$1\.tar\.gz/ \
+ https://github.com/pulb/mailnag-goa-plugin/releases .*/v?(\d\S*)\.tar\.gz
