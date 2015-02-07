@@ -12,7 +12,6 @@ source=('https://github.com/pulb/mailnag-goa-plugin/archive/v1.1.0.tar.gz')
 md5sums=('f3c0df790a2f5e6b615ef804ee0e5a91')
 
 package() {
-  cd "${srcdir}/${pkgname}-${pkgver}"
+  cd "${pkgname}-${pkgver}"
   python2 setup.py install --root=${pkgdir}
-  install -D -m644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
