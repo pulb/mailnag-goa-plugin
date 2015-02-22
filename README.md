@@ -1,5 +1,5 @@
 #mailnag-goa-plugin
-Mailnag GNOME Online Accounts Plugin
+Mailnag GNOME Online Accounts plugin
 
 ## Installation
 
