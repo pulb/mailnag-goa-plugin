@@ -64,7 +64,7 @@ class GOAPlugin(Plugin):
 							acc = Account(enabled = True, name = mail.props.email_address, \
 									user = mail.props.imap_user_name, password = passwd, \
 									oauth2string = auth_string, server = mail.props.imap_host, port = '', \
-									ssl = mail.props.imap_use_ssl, imap = True, idle = True, folder = '')
+									ssl = mail.props.imap_use_ssl, imap = True, idle = True, folders = [])
 							
 							accounts.append(acc)
 		
