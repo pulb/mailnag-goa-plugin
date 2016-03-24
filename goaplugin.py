@@ -66,6 +66,7 @@ class GOAPlugin(Plugin):
 									oauth2string = auth_string, server = mail.props.imap_host, port = '', \
 									ssl = mail.props.imap_use_ssl, imap = True, idle = True, folders = [])
 							
+#							acc.fetch_imap_folders()
 							accounts.append(acc)
 		
 		
@@ -91,7 +92,7 @@ class GOAPlugin(Plugin):
 	def get_manifest(self):
 		return (_("GNOME Online Accounts"),
 				_("GNOME Online Accounts Integration."),
-				"1.1",
+				"1.2",
 				"Patrick Ulbrich <zulu99@gmx.net>",
 				False)
 
