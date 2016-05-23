@@ -3,7 +3,7 @@
 #
 # goaplugin.py
 #
-# Copyright 2014, 2015 Patrick Ulbrich <zulu99@gmx.net>
+# Copyright 2014 - 2016 Patrick Ulbrich <zulu99@gmx.net>
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -20,6 +20,9 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 # MA 02110-1301, USA.
 #
+
+import gi
+gi.require_version('Goa', '1.0')
 
 from gi.repository import Goa
 from Mailnag.common.plugins import Plugin, HookTypes
