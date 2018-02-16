@@ -12,8 +12,8 @@ Issue the following commands in a terminal to enable the PPA and install the plu
     sudo apt-get install mailnag-goa-plugin
 
 ### Arch Linux
-This plugin is available in the [AUR](https://aur.archlinux.org/packages/mailnag-goa-plugin/) repository.  
-Please either run `yaourt -S mailnag-goa-plugin` or `packer -S mailnag-goa-plugin` (as root) to install the package.
+This plugin is available in the official repos.  
+Please run `pacman -Syu mailnag-goa-plugin` (as root) to install the package.
 
 ### Generic Tarballs
 Sourcecode releases are available [here](https://github.com/pulb/mailnag-goa-plugin/releases).  
