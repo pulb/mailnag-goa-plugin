@@ -21,6 +21,6 @@ To install the plugin type `sudo ./setup.py install --prefix=/usr --install-layo
 That's it. Now fire up `mailnag-config` and enable the plugin.  
 
 ###### Requirements
-* mailnag >= 1.1.0
+* mailnag >= 2.0.0
 * gir1.2-goa-1.0
 * gnome-online-accounts

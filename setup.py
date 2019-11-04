@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 # To install the plugin run this script as root:
 # ./setup.py install
@@ -15,7 +15,7 @@ import os
 import shutil
 
 PACKAGE_NAME = 'mailnag-goa-plugin'
-PLUGIN_VERSION = '1.1'
+PLUGIN_VERSION = '2.0'
 
 # TODO : This hack won't work with --user and --home options
 PREFIX = '/usr'

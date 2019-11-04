@@ -1,9 +1,4 @@
-#!/usr/bin/env python2
-# -*- coding: utf-8 -*-
-#
-# goaplugin.py
-#
-# Copyright 2014 - 2016 Patrick Ulbrich <zulu99@gmx.net>
+# Copyright 2014 - 2019 Patrick Ulbrich <zulu99@gmx.net>
 #
 # This program is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
