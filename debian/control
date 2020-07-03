@@ -15,7 +15,7 @@ Depends:
  gnome-online-accounts,
  mailnag (>= 2.0),
  ${misc:Depends},
- ${python:Depends}
+ ${python3:Depends}
 Description: plugin that integrates GNOME Online Accounts into Mailnag
  Mailnag is a daemon program that checks POP3 and IMAP servers for new mail.
  On mail arrival it performs various actions provided by plugins. Mailnag

@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-export PYBUILD_NAME=Mailnag
+export PYBUILD_NAME=mailnag-goa-plugin
 
 %:
 	dh $@ --with python3 --buildsystem=pybuild
