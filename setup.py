@@ -8,7 +8,6 @@ from distutils.cmd import Command
 from distutils.log import warn, info, error
 from distutils.command.install_data import install_data
 from distutils.command.build import build
-from distutils.sysconfig import get_python_lib
 
 import sys
 import os
